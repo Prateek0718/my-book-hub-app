@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.ProfileFragment"
+    android:orientation="vertical"
+    android:weightSum="14.5">
+
+    <ImageView
+        android:id="@+id/imgProfilePic"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="6"
+        android:src="@drawable/profile_picc" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5.5"
+        android:text="Reading is one of the oldest past-times known to man – besides foraging for food and going to war, of course. We’ve been writing down stories and passing them around since written language developed, devouring tales of our ancestors and fictitious creatures alike. Nowadays, there’s whole stores – tons of them – dedicated just to books of all genres. Here are some page-turning book Instagram captions for the book-lover in all of us. If you are a bookstagrammer looking for reading Instagram captions…read on!"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtProfileDesc"
+        android:padding="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:text="Thank you"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/txtThank"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="Enjoy Reading"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/txtEnjoy"/>
+
+</LinearLayout>
